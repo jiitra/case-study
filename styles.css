@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "Poppins-reg";
+  src: url("../fonts/poppins-regular-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-regular-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "Poppins-bold";
+  src: url("../fonts/poppins-bold-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-bold-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "Poppins-semi";
+  src: url("../fonts/poppins-semibold-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-semibold-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "Poppins-light";
+  src: url("../fonts/poppins-light-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-light-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Moneygame";
+  src: url("../fonts/moneygameregular-yza9o-webfont.woff2") format("woff2"),
+    url("../fonts/moneygameregular-yza9o-webfont.woff") format("woff");
+}
+:root {
+  /* colors */
+  --textColor: #171616;
+  --accentGreen: #439980;
+  --accentYellow: #f6bf42;
+  --backgroundColor: #fffaed;
+  --kamiRed: #eb4e37;
+  --inactive: #a6a6a6;
+  --mobileNavBorderColor: #aaaaaa;
+  --modalPink: #f9c6b6;
+  --backgroundDarker: #fff3d1;
+}
+
+#container {
+  padding-top: 2rem;
+  max-width: 44rem;
+  margin: auto;
+
+  padding-bottom: 4rem;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--backgroundColor);
+  margin: auto;
+}
+
+h1 {
+  font-family: "Poppins-bold", Helvetica, sans-serif;
+
+  font-size: 4rem;
+  line-height: 5rem;
+  text-align: center;
+  align-items: center;
+}
+
+h1 strong {
+  font-family: "Moneygame", Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: "Poppins-bold", Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-family: "Poppins-semi", Helvetica, sans-serif;
+}
+
+p {
+  font-family: "Poppins-light", Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+a {
+  font-family: "Poppins-reg", Helvetica, sans-serif;
+  color: var(--accentGreen);
+  font-size: 1.2rem;
+}
+
+a:hover {
+  color: #227a61;
+}
+
+strong {
+  font-family: "Poppins-bold", Helvetica, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.caption {
+  text-align: center;
+  font-family: "Poppins-light", Helvetica, sans-serif;
+  font-size: 1.1rem;
+  line-height: 0;
+}
+
+.margin-none {
+  margin: 0;
+}
+
+.small {
+  width: 200px;
+  margin: auto;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
