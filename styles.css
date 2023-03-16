@@ -38,11 +38,10 @@
 }
 
 #container {
-  padding-top: 2rem;
   max-width: 44rem;
   margin: auto;
-
-  padding-bottom: 4rem;
+  padding: 0 1rem;
+  padding-top: 2rem;
 }
 
 body {
@@ -117,4 +116,8 @@ img {
 .center {
   display: flex;
   justify-content: center;
+}
+
+.rounded {
+  border-radius: 20px;
 }
